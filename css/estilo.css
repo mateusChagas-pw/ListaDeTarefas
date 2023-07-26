@@ -60,6 +60,16 @@ main{
     width: 100%;
     box-shadow: 0 0 20px #ccc;
     margin-bottom: 2%;
+    cursor: pointer;
+}
+
+.item.clicado {
+    background: #d4f6d9;
+}
+
+.item.clicado .item-nome {
+    text-decoration: line-through;
+    color: gray;
 }
 
 .item-icone {
@@ -90,5 +100,7 @@ main{
     width: 100%; 
 }
 
-
+.mdi-check-circle {
+    color: green;
+}
 
